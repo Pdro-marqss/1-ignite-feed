@@ -10,3 +10,13 @@
     align-items: flex-start;
     /*Flex-start faz a sidebar nao esticar pra tentar ter o tamanho da area de posts*/
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%
+    }
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+}
